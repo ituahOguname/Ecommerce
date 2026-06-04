@@ -1,0 +1,76 @@
+# .NET Build outputs
+bin/
+obj/
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# JetBrains Rider (already has .idea/ directory)
+.idea/
+*.dotSettings
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Markdown documentation files
+*.md
+
+# ASP.NET / IIS
+wwwroot/
+App_Data/
+
+# Logs
+*.log
+logs/
+
+# Secrets (don't commit connection strings with passwords)
+appsettings.*.local.json
+secrets.json
+
+# User-specific files
+*.rsuser
+*.dbmdl
+*.dbmdl
+
+# Entity Framework Migrations backup
+Backup/
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+# Temp files
+*.tmp
+*.swp
+*~
+
+# Publish output
+publish/
+*.publish.xml
+
+# SQL Server (localdb)
+*.mdf
+*.ldf
+
+# Docker
+docker-compose.override.yml
+
+# Node (if used for build tooling like Webpack)
+node_modules/
